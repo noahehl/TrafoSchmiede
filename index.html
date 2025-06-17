@@ -11,15 +11,11 @@
 
             if (answer === "arpke") {
                 var routes = {
-                    "Arpke": "https://www.google.com/maps/dir/52.386616,10.103179/52.385974,10.078309", <!--Waldkindergarten1-->
-                    "Aligse": "https://www.google.com/maps/dir/52.386616,10.103179/52.384315,10.095378", <!--Telefonhaus_Hasendamm12-->
-                    "Steinwedel": "https://www.google.com/maps/dir/52.386616,10.103179/52.383050,10.096469", <!--Aselmann11-->
-                    "Ahlten": "https://www.google.com/maps/dir/52.386616,10.103179/52.387927,10.093568", <!--Spielplatz_Waldpark13-->
-                    "Lehrte": "https://www.google.com/maps/dir/52.386616,10.103179/52.388857,10.080360", <!--Trafo_Knüppels2-->
-                    "Immensen": "https://www.google.com/maps/dir/52.386616,10.103179/52.391746,10.086804", <!--Bahnhof3-->
-                    "Sievershausen": "https://www.google.com/maps/dir/52.386616,10.103179/52.388918,10.097363", <!--Spielplatz_Schilfkamp6-->
-                    "Hämelerwald": "https://www.google.com/maps/dir/52.386616,10.103179/52.385373,10.099786", <!--Kirche9-->
-                    "Kolshorn": "https://www.google.com/maps/dir/52.386616,10.103179/Am+Waldbad+5,+31275+Lehrte"
+                    "Aligse": "https://www.google.com/maps/dir/52.386616,10.103179/52.388918,10.097363", <!--Spielplatz_Schilfkamp6-->
+                    "Ahlten": "https://www.google.com/maps/dir/52.386616,10.103179/52.383125,10.103022", <!--Schlachter10-->
+                    "Lehrte": "https://www.google.com/maps/dir/52.386616,10.103179/52.387927,10.093568", <!--Waldpark13-->
+                    "Sievershausen": "https://www.google.com/maps/dir/52.386616,10.103179/52.384315,10.095378", <!--Hasendamm12-->
+                    "Hämelerwald": "https://www.google.com/maps/dir/52.386616,10.103179/52.388918,10.097363", <!--Spielplatz_Schilfkamp6-->
                 };
 
                 if (routes[group]) {
@@ -34,19 +30,15 @@
     </script>
 </head>
 <body>
-    <h1>Gruppenauswahl und Ortsfrage</h1>
+    <h1>Schmiedestr.</h1>
     <p>Bitte wähle deine Gruppe:</p>
     <select id="group">
         <option value="">-- Gruppe auswählen --</option>
-        <option value="Arpke">Arpke</option>
         <option value="Aligse">Aligse</option>
-        <option value="Steinwedel">Steinwedel</option>
         <option value="Ahlten">Ahlten</option>
         <option value="Lehrte">Lehrte</option>
-        <option value="Immensen">Immensen</option>
         <option value="Sievershausen">Sievershausen</option>
         <option value="Hämelerwald">Hämelerwald</option>
-        <option value="Kolshorn">Kolshorn</option>
     </select>
 
     <p>In welchen Ort befinden wir uns?</p>
